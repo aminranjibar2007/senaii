@@ -14,7 +14,7 @@ jobs:
       - name: Download x-ui-linux-amd64.tar.gz
         run: |
           mkdir -p downloads
-          curl -L "https://github.com/MHSanaei/3x-ui/releases/download/v3.0.1/x-ui-linux-amd64.tar.gz" -o downloads/x-ui-linux-amd64.tar.gz
+          curl -L "https://github.com/MHSanaei/3x-ui/releases/download/v2.2.1/x-ui-linux-amd64.tar.gz" -o downloads/x-ui-linux-v2.0.1-amd64.tar.gz
 
       - name: Commit and Push File
         run: |
